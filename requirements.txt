@@ -1,1 +1,8 @@
 streamlit
+pydicom
+matplotlib
+scikit-image
+plotly
+scipy
+ipywidgets 
+IPython

@@ -1,13 +1,16 @@
 import streamlit as st
+import matplotlib.pyplot as plt
 
-st.title("Visualizing bone metastatic lesions")
+import AMV
+
+st.title("Visualizing metastatic lesions in bone")
 st.write(
     "Link format: [docs.streamlit.io](https://docs.streamlit.io/)."
 )
 
 tab1, tab2, tab3, tab4 = st.tabs(["Introduction", 
                                   "Materials & Methods", 
-                                  "Results", 
+                                  "Results & Discussion", 
                                   "Data availability"])
 with tab1:
     st.header("What is bone metastasis?")
@@ -36,3 +39,8 @@ with tab2:
     """
     sdl
     """
+
+with tab3:
+    st.header("Key visualizations")
+
+    st.header("Discussion")
