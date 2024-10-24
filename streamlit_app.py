@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Visualizing MRI scans of low-grade gliomas in Python")
+st.title("Visualizing bone metastatic lesions")
 st.write(
     "Link format: [docs.streamlit.io](https://docs.streamlit.io/)."
 )
@@ -10,16 +10,29 @@ tab1, tab2, tab3, tab4 = st.tabs(["Introduction",
                                   "Results", 
                                   "Data availability"])
 with tab1:
-    st.header("What are gliomas?")
-    """A tumor affecting glial cells in the brain or spinal cord is called a glioma. 
-    Brain tumors are divided into 4 grades to denote the speed with which they spread
+    st.header("What is bone metastasis?")
+    """
+    In patients with various types of cancers, cancer cells tend to break away from the site of the primary tumor and enter the bloodstream. As a result, **Osteoblasts** are cells responsible for synthesizing bone tissue, while **osteoclasts** are involved in bone tissue breakdown. 
     
+    This report aims to visualize bone metastases as manifested in spinal CT scans in a variety of patients. We analyzed patients from both sexes who have been diagnosed with dfferent primary tumors (prostate, lung, breast, skin etc.) and suffer from different kinds of bone metastasis, such as osteolytic, osteoblastic and mixed (featuring both). 
+    """
+    
+    st.header("Computed Tomography (CT)")
+
+    """
     
     """
-    st.write("Aiman W, Gasalberti DP, Rayi A. Low-Grade Gliomas. [Updated 2023 May 6]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK560668/")
-    st.write("Tony J.C. Wang, Minesh P. Mehta, Low-Grade Glioma Radiotherapy Treatment and Trials, Neurosurgery Clinics of North America, Volume 30, Issue 1, 2019, Pages 111-118, ISSN 1042-3680, ISBN 9780323655019, https://doi.org/10.1016/j.nec.2018.08.008.")
-    st.header("Magnetic Resonance Imaging (MRI)")
+
+    st.header("References")
+    st.write("Jayarangaiah A, Kemp AK, Theetha Kariyanna P. Bone Metastasis. [Updated 2023 Jul 31]. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2024 Jan-. Available from: https://www.ncbi.nlm.nih.gov/books/NBK507911/")
+    st.write("Dataset: Pieper, S., Haouchine, N., Hackney, D.B., Wells, W.M. Sanhinova, M., Balboni, T., Spektor, A., Huynh, M., Tanguturi, S., Kim, E., Guenette, J.P., Kozono, D.E., Czajkowski, B., Caplan, S., Doyle, P., Kang, H., Alkalay, R.N. (2024) Spine metastatic bone cancer: pre and post radiotherapy CT (Spine-Mets-CT-SEG) [Dataset] (Version 1). The Cancer Imaging Archive. https://doi.org/10.7937/kh36-ds04")
 
 with tab2:
     st.header("Choice of dataset")
+
+    "The dataset was obtained from The Cancer I"
     st.header("Patient choice")
+    
+    """
+    sdl
+    """
